@@ -1,0 +1,16 @@
+{
+  "name": "node-ssh-socks5-tunnel-client",
+  "version": "1.0.0",
+  "description": "A \"just-add-water\" SSH tunnel as SOCKS5 proxy client based on Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Aysh Su <hevark@msn.com>",
+  "license": "MIT",
+  "dependencies": {
+    "socksv5": "0.0.6",
+    "ssh2": "^0.4.15"
+  }
+}
